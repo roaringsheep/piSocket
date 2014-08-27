@@ -1,0 +1,9 @@
+{
+  "name": "clawSocket",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "pi-gpio": "0.0.6",
+    "socket.io-client": "^1.0.6"
+  }
+}
