@@ -1,6 +1,5 @@
 var socket = require('socket.io-client')('http://192.168.1.60:9000/pi-socket');
-// var gpio = require('pi-gpio');
-// var piSocket = socket('http://localhost/pi-socket');
+var gpio = require('pi-gpio');
 
 socket.on('connect',function(){
 		console.log('connect successful!');
